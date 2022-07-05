@@ -15,10 +15,7 @@ h1 {
     font-size: 50px;
 }
 
-section {
-    display: flex;
-    margin-bottom: 150px;
-}
+
 
 .half-width {
     width: 50%;
@@ -39,6 +36,8 @@ section {
 }
 
 .top-banner {
+    display: flex;
+    margin-bottom: 150px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -48,5 +47,38 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 150px;
 
+}
+
+.second-width {
+
+    text-align: line;
+    width: 30%;
+    padding-left: 15%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 10px 10px greenyellow;
+
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#first {
+    border-left: 7px solid tomato;
+}
+
+#second {
+    border-right: 7px solid blue;
+}
+
+#center {
+    text-align: center;
 }
