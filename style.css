@@ -17,6 +17,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -26,7 +27,6 @@ section {
 
 .half-width img {
     width: 70%;
-
 }
 
 .button-style {
@@ -36,10 +36,17 @@ section {
     color: white;
     font-weight: 800;
     border-radius: 5px;
-
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.middle-banner {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
